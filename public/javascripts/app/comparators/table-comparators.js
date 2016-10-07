@@ -4,10 +4,12 @@
 
 define([
     "app/comparators/table/is_null_table",
-    "app/comparators/table/field_list"
+    "app/comparators/table/field_list",
+    "app/comparators/table/counts",
 ], function(
     is_null_table,
-    field_list
+    field_list,
+    counts
 ) {
-    return [is_null_table, field_list];
+    return [is_null_table, field_list, counts];
 });

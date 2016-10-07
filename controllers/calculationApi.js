@@ -6,8 +6,6 @@
 var MetricsEntity = require("../model/MetricsEntity"),
     Calc = require("../model/MetricsCalculator");
 
-
-
 class calculationApi {
     calculate(settingsId, pwd) {
         var metrics = null;
